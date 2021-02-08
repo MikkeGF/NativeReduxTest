@@ -10,7 +10,8 @@ const Container = styled.View`
 export default function Counter() {
     return (
         <Container>
-            
+            <Button title='+' />
+            <Button title='-' />
         </Container>
     )
 }
